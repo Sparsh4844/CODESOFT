@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="images/fox.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sparsh Maheshwari | Frontend Developer</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo"><img src="images/logo.png" alt="logo"></div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about-section">About</a></li>
+                <li><a href="#skills-section">Education</a></li>
+                <li><a href="#skills-section">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- intro section  -->
+        <section class="hero" id="hero">
+            <div class="intro-text">
+                <h1>Hi, I'm <span>Sparsh Maheshwari</span></h1>
+                <h2>Frontend Developer</h2>
+                <p>This is my official portfolio Website to all
+                    Details and work experience in web development</p>
+                <div class="buttons">
+                    <a href="images/CV.png" onclick="alert" class="btn" download>Hire Me</a>
+                    <a href="#contact" onclick="alert" class="btn">Let's Talk</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/boy.jpg" alt="Sparsh Maheshwari">
+            </div>
+        </section>
+
+
+        <!-- about section  -->
+        <section class="about-section" id="about-section">
+            <h2>About <span>Me</span></h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/boy.jpg" alt="Jacob Aiden">
+                </div>
+                <h3>Frontend Developer!</h3>
+                <h4>
+                    I'm a UI Designer and Front End Developer from Greater Noida, India.
+                </h4>
+                <p>
+                    I enjoy taking complex problems and turning them into simple and beautiful interface designs. I also
+                    love the logic and structure of coding and always strive to write elegant and efficient code,
+                    whether it be HTML or CSS.
+                </p>
+                <button class="btn read-more">Read More</button>
+            </div>
+        </section>
+
+
+        <!-- skill section  -->
+        <section class="skills-section" id="skills-section">
+            <h2>My <span>Skills</span></h2>
+            <div class="skills-container">
+                <div class="skills-box">
+                    <h3>Coding Skills</h3>
+                    <div class="skill">
+                        <p>HTML</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%;"></div>
+                        </div>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill">
+                        <p>CSS</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;"></div>
+                        </div>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill">
+                        <p>JavaScript</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 65%;"></div>
+                        </div>
+                        <span>65%</span>
+                    </div>
+                    <div class="skill">
+                        <p>Python</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%;"></div>
+                        </div>
+                        <span>75%</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <p>Web Design</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 95%;"></div>
+                        </div>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill">
+                        <p>Web Development</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 67%;"></div>
+                        </div>
+                        <span>67%</span>
+                    </div>
+                    <div class="skill">
+                        <p>Graphic Design</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%;"></div>
+                        </div>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill">
+                        <p>SEO Marketing</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 60%;"></div>
+                        </div>
+                        <span>60%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="contact">
+                <h2 class="section-title">Contact <span>Me!</span></h2>
+                <form action="https://api.web3forms.com/submit" method="post" class="contact-form">
+                    <input type="hidden" name="access_key" value="f473d603-5b21-4728-b501-29c5bf22861d">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Full Name" required>
+                        <input type="email" name="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="phone" placeholder="Mobile Number" required>
+                        <input type="text" name="subject" placeholder="Email Subject" required>
+                    </div>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- footer  -->
+        <footer class="footer">
+            <p>© 2024 Sparsh Maheshwari. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
